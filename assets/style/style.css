@@ -1,67 +1,85 @@
-body {
-    background-color: rgb(219, 183, 20);
-    display: inline-block;
-    width: 98vw;
-    border-radius: 5px;
-    margin: 6px;
+/* nav bar */
+.right {
+    float: right;
+    flex-flow: wrap;
+    background-color:  rgb(100, 100, 226);
+    border: burlywood;
+    border-style: outset;
 }
 
-#card-header {
-    background-color: rgb(136, 140, 148);
-    display: inline-block;
-    flex-flow: center;
-    align-content: center;
-    width: 98vw;
-    border: 3px #1874df;
-    border-style: ridge;
-    border-width: 10px;
-    border-radius: 5px;
-    margin: 6px;
-}
-
-#card-body {
-    background-color: rgb(136, 140, 148);
-    display: inline-block;
+.left {
     float: left;
-    flex-flow: row;
+    flex-flow: wrap;
+    background-color: rgb(100, 100, 226);
+    border: burlywood;
+    border-style: outset;
+}
+
+#nav {
+    display: block;
+    background-color: rgb(103, 140, 165);
+    display: inline-block;
     width: 98vw;
-    border: 3px #1874df;
-    border-style: ridge;
-    border-width: 10px;
+    border: 3px solid #4b24b8;
     border-radius: 5px;
     margin: 6px;
+    opacity: 90%;
+}
+
+/* body */
+
+body {
+    margin-top: 120pt;
+    margin-bottom: 10rem;
+    margin-left: 80pt;
+    margin-right: 80pt;
+    font-family: Cambria, Georgia;
+    background-color: #8f8386;
+    cursor: grab;
 }
 
 #quizBody {
     text-align: center;
+    background-color: lightsteelblue;
     padding: 12vh;
+    text-shadow: blanchedalmond;
+    border: burlywood;
+    border-style: outset;
+    border-radius: 700pt;
 }
 
-h2  {
+h4 {
     padding: 10px 8px 10px 8px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    font-family: Cambria, Georgia; ;
+    color: rgb(184, 219, 235);
 }
 
 button {
-    border-style: groove;
-    border-radius: 30%;
-    background-color: #a6e2d5;
-    color: rgb(61, 83, 116);
-    border-radius: 5px;
+    border: none;
+    background-color: #9890c2;
+    color: rgb(38, 20, 88);
+    border-radius: 10px;
+    border-style: double;
     padding: 10px 16px 10px 16px;
     font-size: 17px;
-    font-family: Cambria;
+    font-family: Cambria, Georgia;
+    font-weight: bolder;
     margin: 4px;
 }
 
 button:hover {
     transition-duration: 0.4s;
-    background-color: #ff80a4;
+    background-color: #80ffe3;
+    cursor: grabbing;
 }
 
 #quiz {
     text-align: center;
+    text-shadow: blanchedalmond;
+    border: burlywood;
+    border-style: outset;
+    border-radius: 700pt;

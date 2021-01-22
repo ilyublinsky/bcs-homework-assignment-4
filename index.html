@@ -6,30 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
     <link rel="stylesheet" href="/assets/style/style.css">
-    <link rel="stylesheet" href="/assets/javascript/javascript.js">
 </head>
 <body>
-    <card id="card-header">
-        <!-- view scores link on the top left of nav bar-->
-        <header class="header" style="display: block">
+    <div id="nav ">
+        <div class="left">
             <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
-        </header>
-        </card>
+        </div>
+        <div class="right">
+            <h4>Time: <span id="timeLeft">0</span></h4>
+        </div>
     </div>
-    <!--main body of quiz-->
-    <card id="card-body">
     <div id="quiz">
         <div id="quizBody">      
-            <h2>   
-                Code Quiz
-            </h2>
+            <h1><strong>   
+                - Code Quiz -
+                </strong>
+            </h1>
+            <h3>
+                Click to the button below to play!   
+            </h3>
             <button onclick="start()">Start!</button>
         </div>
-        <!-- countdown timer on the top right of nav bar-->
-        <footer class="footer">
-            <h4>Time: <span id="timeLeft">0</span></h4>
-        </footer>
-        </div>
     </div>
+    <script src="/assets/javascript/javascript.js"></script>
 </body>
 </html>
