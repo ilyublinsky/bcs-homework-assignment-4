@@ -116,3 +116,9 @@ function incorrectResponse() {
     timeLeft -= 15; 
     next();
 }
+
+//Add 5 points for every answer that is correct
+function correctResponse() {
+    score += 5;
+    next();
+}
