@@ -1,8 +1,33 @@
 body {
-    background-color: rgb(136, 140, 148);
+    background-color: rgb(219, 183, 20);
     display: inline-block;
     width: 98vw;
-    border: 3px solid #e64e79;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+#card-header {
+    background-color: rgb(136, 140, 148);
+    display: inline-block;
+    flex-flow: center;
+    align-content: center;
+    width: 98vw;
+    border: 3px #1874df;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+#card-body {
+    background-color: rgb(136, 140, 148);
+    display: inline-block;
+    float: left;
+    flex-flow: row;
+    width: 98vw;
+    border: 3px #1874df;
+    border-style: ridge;
+    border-width: 10px;
     border-radius: 5px;
     margin: 6px;
 }

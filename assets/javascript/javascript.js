@@ -25,3 +25,6 @@ var questions = [{
     answer: "length( )"
 }
 ]
+
+// Score and timer functions
+
