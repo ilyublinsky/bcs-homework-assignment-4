@@ -1,23 +1,42 @@
 body {
-    background-color: rgb(159, 167, 170);
-    }
-    
-.container {
-    width: 80%;
-    max-width: 950px;
-    border: 1px gray solid;
-    margin: auto;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px;
-    }
-    
-    #header {
-    margin-top: 0;
-    border: 2px solid black;
-    padding: 5px;
-    height: 250px;
-    background: beige;
-    background-image: url("code.jpg");
-    color: white;
-    }
+    background-color: rgb(136, 140, 148);
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid #e64e79;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 12vh;
+}
+
+h2  {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border-style: groove;
+    border-radius: 30%;
+    background-color: #a6e2d5;
+    color: rgb(61, 83, 116);
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: Cambria;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: #ff80a4;
+}
+
+#quiz {
+    text-align: center;
