@@ -28,3 +28,39 @@ var questions = [{
 
 // Score and timer functions
 
+var score = 0;
+var currentQuestion = -1;
+var timeLeft = 0;
+var timer;
+
+// Starts the countdown timer once user clicks the 'start' button
+function start() {
+
+    timeLeft = 75;
+    document.getElementById("timeLeft").innerHTML = timeLeft;
+
+    timer = setInterval(function() {
+        timeLeft--;
+        document.getElementById("timeLeft").innerHTML = timeLeft;
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            endGame(); 
+        }
+    }, 5000);
+
+    next();
+}
+
+// Function to end game when the timer is done.
+function endGame() {
+    clearInterval(timer);
+
+    var quizContent = `
+    <h2>Time's up!</h2>
+    <h3>You got a ` + score +  ` /100!</h3>
+    <h3>That means you got ` + score / 20 +  ` questions correct!</h3>
+    <input type="text" id="name" placeholder="First name"> 
+    <button onclick="setScore()">Set score!</button>`;
+
+    document.getElementById("quizBody").innerHTML = quizContent;
+}
