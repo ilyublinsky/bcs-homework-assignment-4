@@ -91,3 +91,28 @@ function clearScore() {
 
     resetQuiz();
 }
+
+//reset the game 
+function resetGame() {
+    clearInterval(timer);
+    score = 0;
+    currentQuestion = -1;
+    timeLeft = 0;
+    timer = null;
+
+    document.getElementById("timeLeft").innerHTML = timeLeft;
+
+    var quizContent = `
+    <h2>
+        Code Quiz
+    </h2>
+    <button onclick="start()">Start!</button>`;
+
+    document.getElementById("quizBody").innerHTML = quizContent;
+}
+
+//Time deducted if answer is wrong
+function incorrectResponse() {
+    timeLeft -= 15; 
+    next();
+}
