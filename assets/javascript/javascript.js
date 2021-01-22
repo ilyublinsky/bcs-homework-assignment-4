@@ -83,3 +83,11 @@ function getScore() {
 
     document.getElementById("quizBody").innerHTML = quizContent;
 }
+
+//Clears score
+function clearScore() {
+    localStorage.setItem("highscore", "");
+    localStorage.setItem("highscoreName",  "");
+
+    resetQuiz();
+}
