@@ -2,7 +2,7 @@
 
 ## Take the Quiz Now!
 
-![Click to take the quiz here!](https://ilyublinsky.github.io/bcs-homework-assignment-4/)
+[Click to take the quiz here!](https://ilyublinsky.github.io/bcs-homework-assignment-4/)
 
 ## Your Task
 
