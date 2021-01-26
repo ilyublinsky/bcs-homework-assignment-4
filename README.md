@@ -40,4 +40,4 @@ THEN I can save my initials and my score
 
 The following animation demonstrates the application functionality:
 
-![alt text](https://github.com/ilyublinsky/bcs-homework-assignment-4/assets/images/04-web-apis-homework-demo.gif?raw=true)
+![ScreenShot](assets/images/04-web-apis-homework-demo.gif?raw=true)
